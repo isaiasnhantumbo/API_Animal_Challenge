@@ -47,3 +47,10 @@ D:\Work\XPNT\Projects\Animal_Challenge\Animal_Challenge\API\bin\Debug\net5.0\Inf
 D:\Work\XPNT\Projects\Animal_Challenge\Animal_Challenge\API\bin\Debug\net5.0\Application.pdb
 D:\Work\XPNT\Projects\Animal_Challenge\Animal_Challenge\API\bin\Debug\net5.0\Domain.pdb
 D:\Work\XPNT\Projects\Animal_Challenge\Animal_Challenge\API\bin\Debug\net5.0\Persistence.pdb
+D:\Work\XPNT\Projects\Animal_Challenge\Animal_Challenge\API\bin\Debug\net5.0\MediatR.dll
+D:\Work\XPNT\Projects\Animal_Challenge\Animal_Challenge\API\bin\Debug\net5.0\MediatR.Contracts.dll
+D:\Work\XPNT\Projects\Animal_Challenge\Animal_Challenge\API\bin\Debug\net5.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\Work\XPNT\Projects\Animal_Challenge\Animal_Challenge\API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Work\XPNT\Projects\Animal_Challenge\Animal_Challenge\API\bin\Debug\net5.0\FluentValidation.dll
+D:\Work\XPNT\Projects\Animal_Challenge\Animal_Challenge\API\bin\Debug\net5.0\FluentValidation.AspNetCore.dll
+D:\Work\XPNT\Projects\Animal_Challenge\Animal_Challenge\API\bin\Debug\net5.0\FluentValidation.DependencyInjectionExtensions.dll

@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Application.Features.AnimalTypes;
 using Domain;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -11,88 +12,36 @@ namespace API.Controllers
 {
     public class AnimalTypeController : BaseController
     {
-        private readonly DataContext _context;
-
-        public AnimalTypeController(DataContext context)
-        {
-            _context = context;
-        }
-        
         [HttpGet]
-        public async Task<ActionResult<List<AnimalType>>> ListAnimalType()
+        public async Task<IReadOnlyList<AnimalType>> ListAnimalType()
         {
-            return await _context.AnimalTypes.ToListAsync();
+            return await Mediator.Send(new ListAnimalType.ListAnimalTypeQuery());
         }
 
         [HttpGet("{description}")]
         public async Task<ActionResult<AnimalType>> GetAnimalTypeByDescription(string description)
         {
-            var animalType = await _context.AnimalTypes.Where(x => x.Description.ToUpper() == description.ToUpper())
-                .FirstOrDefaultAsync();
-            if (animalType == null)
-            {
-                throw new Exception("Animal Type not found");
-            }
-
-            return animalType;
+            return await Mediator.Send(new GetAnimalTypeByDescription.GetAnimalTypeByDescriptionQuery
+                {Description = description});
         }
 
         [HttpPost]
-        public async Task<ActionResult<AnimalType>> AddAnimalType(AnimalType animalType)
+        public async Task<ActionResult<AnimalType>> AddAnimalType(AddAnimalType.AddAnimalTypeCommand command)
         {
-            var aType = new AnimalType
-            {
-                Description = animalType.Description
-            };
-
-            await _context.AnimalTypes.AddAsync(aType);
-            var result = await _context.SaveChangesAsync();
-
-            if (result <= 0)
-            {
-                throw new Exception("Fail to add new AnimalType");
-            }
-
-            return aType;
+            return await Mediator.Send(command);
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult<AnimalType>> UpdateAnimalType(int id, AnimalType animalType)
+        public async Task<ActionResult<AnimalType>> UpdateAnimalType(int id, UpdateAnimalType.UpdateAnimalTypeCommand command)
         {
-            var aType = await _context.AnimalTypes.FindAsync(id);
-            if (aType == null)
-            {
-                throw new Exception("Animal Type not found");
-            }
-
-            aType.Description = animalType.Description;
-            _context.AnimalTypes.Update(aType);
-            var result = await _context.SaveChangesAsync();
-            if (result <= 0)
-            {
-                throw new Exception("Fail to update the animal type");
-            }
-            
-            return aType;
+            command.Id = id;
+            return await Mediator.Send(command);
         }
         
         [HttpDelete("{id}")]
         public async Task<ActionResult<AnimalType>> RemoveAnimalType(int id)
         {
-            var animalType = await _context.AnimalTypes.FindAsync(id);
-            if (animalType == null)
-            {
-                throw new Exception("Animal Type not found");
-            }
-
-            _context.AnimalTypes.Remove(animalType);
-            var result = await _context.SaveChangesAsync();
-            if (result <= 0 )
-            {
-                throw new Exception("Fail to delete the animal type");
-            }
-
-            return animalType;
+            return await Mediator.Send(new DeleteAnimalType.DeleteAnimalTypeCommand {Id = id});
         }
     }
 }

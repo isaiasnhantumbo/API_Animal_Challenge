@@ -10,5 +10,8 @@ namespace Persistence
         }
 
         public DbSet<AnimalType> AnimalTypes { get; set; }
+        public DbSet<Bird> Birds { get; set; }
+        public DbSet<Terrestrial> Terrestrials { get; set; }
+        public DbSet<TerrestrialType> TerrestrialTypes { get; set; }
     }
 }

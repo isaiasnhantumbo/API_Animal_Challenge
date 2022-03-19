@@ -1,0 +1,11 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+appsettings.Development.json
+/.idea/.idea.Animal_Challenge/.idea/.name
+
+
+/API/bin/
+/API/obj/

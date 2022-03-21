@@ -27,7 +27,19 @@ namespace Persistence
 
                     await context.SaveChangesAsync();
                 }
-                
+
+                if (!context.TerrestrialTypes.Any())
+                {
+                    var terrestrialTypeData = File.ReadAllText("../Persistence/SeedData/terrestrialTypeSeed.json");
+                    var terrestrialTypes = JsonSerializer.Deserialize<List<TerrestrialType>>(terrestrialTypeData);
+
+                    foreach (TerrestrialType terrestrialType in terrestrialTypes)
+                    {
+                        await context.AddAsync(terrestrialType);
+                    }
+
+                    await context.SaveChangesAsync();
+                }
             }
             catch (Exception e)
             {

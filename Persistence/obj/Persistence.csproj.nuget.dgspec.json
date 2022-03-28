@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Persistence\\Persistence.csproj": {}
+    "/Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/Persistence/Persistence.csproj": {}
   },
   "projects": {
-    "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Domain\\Domain.csproj": {
+    "/Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Domain\\Domain.csproj",
+        "projectUniqueName": "/Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/Domain/Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Domain\\obj\\",
+        "projectPath": "/Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/Domain/Domain.csproj",
+        "packagesPath": "/Users/isaiasnhantumbo/.nuget/packages/",
+        "outputPath": "/Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/isaiasnhantumbo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -52,21 +52,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.405/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Persistence\\Persistence.csproj": {
+    "/Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/Persistence/Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "/Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/Persistence/Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Persistence\\Persistence.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Persistence\\obj\\",
+        "projectPath": "/Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/Persistence/Persistence.csproj",
+        "packagesPath": "/Users/isaiasnhantumbo/.nuget/packages/",
+        "outputPath": "/Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/Persistence/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/isaiasnhantumbo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -78,8 +78,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Domain\\Domain.csproj"
+              "/Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/Domain/Domain.csproj": {
+                "projectPath": "/Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/Domain/Domain.csproj"
               }
             }
           }
@@ -114,7 +114,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.405/RuntimeIdentifierGraph.json"
         }
       }
     }

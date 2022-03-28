@@ -8,7 +8,6 @@ namespace Persistence
         public DataContext(DbContextOptions<DataContext> options) : base(options)
         {
         }
-
         public DbSet<AnimalType> AnimalTypes { get; set; }
         public DbSet<Bird> Birds { get; set; }
         public DbSet<Terrestrial> Terrestrials { get; set; }

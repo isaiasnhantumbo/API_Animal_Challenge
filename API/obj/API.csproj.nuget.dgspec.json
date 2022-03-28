@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Work\\Moz\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\API\\API.csproj": {}
+    "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\Work\\Moz\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\API\\API.csproj": {
+    "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work\\Moz\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\API\\API.csproj",
+        "projectUniqueName": "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Work\\Moz\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\API\\API.csproj",
+        "projectPath": "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\API\\API.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "D:\\Work\\Moz\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\API\\obj\\",
+        "outputPath": "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Work\\Moz\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\Work\\Moz\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Infrastructure\\Infrastructure.csproj"
+              "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -45,18 +45,6 @@
             "FluentValidation.AspNetCore": {
               "target": "Package",
               "version": "[10.4.0, )"
-            },
-            "JsonModelBinder": {
-              "target": "Package",
-              "version": "[2.1.1, )"
-            },
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[5.0.5, )"
-            },
-            "Microsoft.AspNetCore.Identity.UI": {
-              "target": "Package",
-              "version": "[5.0.1, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -111,14 +99,14 @@
         }
       }
     },
-    "D:\\Work\\Moz\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Application\\Application.csproj": {
+    "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work\\Moz\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "D:\\Work\\Moz\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Application\\Application.csproj",
+        "projectPath": "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "D:\\Work\\Moz\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Application\\obj\\",
+        "outputPath": "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -133,8 +121,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Work\\Moz\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Persistence\\Persistence.csproj": {
-                "projectPath": "D:\\Work\\Moz\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Persistence\\Persistence.csproj"
+              "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Persistence\\Persistence.csproj": {
+                "projectPath": "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -156,10 +144,6 @@
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[10.0.1, )"
-            },
-            "Microsoft.AspNetCore.Authentication.JwtBearer": {
-              "target": "Package",
-              "version": "[5.0.5, )"
             }
           },
           "imports": [
@@ -181,14 +165,14 @@
         }
       }
     },
-    "D:\\Work\\Moz\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Domain\\Domain.csproj": {
+    "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work\\Moz\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Work\\Moz\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Domain\\Domain.csproj",
+        "projectPath": "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "D:\\Work\\Moz\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Domain\\obj\\",
+        "outputPath": "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -214,12 +198,6 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "dependencies": {
-            "Microsoft.Extensions.Identity.Stores": {
-              "target": "Package",
-              "version": "[5.0.5, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -239,14 +217,14 @@
         }
       }
     },
-    "D:\\Work\\Moz\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work\\Moz\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\Work\\Moz\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "D:\\Work\\Moz\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Infrastructure\\obj\\",
+        "outputPath": "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -261,8 +239,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Work\\Moz\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Application\\Application.csproj": {
-                "projectPath": "D:\\Work\\Moz\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Application\\Application.csproj"
+              "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Application\\Application.csproj": {
+                "projectPath": "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Application\\Application.csproj"
               }
             }
           }
@@ -276,12 +254,6 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "dependencies": {
-            "System.IdentityModel.Tokens.Jwt": {
-              "target": "Package",
-              "version": "[6.10.2, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -301,14 +273,14 @@
         }
       }
     },
-    "D:\\Work\\Moz\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Persistence\\Persistence.csproj": {
+    "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Work\\Moz\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "D:\\Work\\Moz\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Persistence\\Persistence.csproj",
+        "projectPath": "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "D:\\Work\\Moz\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Persistence\\obj\\",
+        "outputPath": "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -323,8 +295,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Work\\Moz\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Work\\Moz\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Domain\\Domain.csproj"
+              "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Work\\XPNT\\Projects\\Animal_Challenge\\Animal_Challenge\\Domain\\Domain.csproj"
               }
             }
           }
@@ -339,14 +311,6 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[5.0.5, )"
-            },
-            "Microsoft.AspNetCore.Identity.UI": {
-              "target": "Package",
-              "version": "[5.0.1, )"
-            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[5.0.5, )"

@@ -19,6 +19,6 @@ D:/Work/XPNT/Projects/Animal_Challenge/Animal_Challenge/Domain/obj/Debug/net5.0/
 /Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/Domain/obj/Debug/net5.0/Domain.AssemblyInfo.cs
 /Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/Domain/obj/Debug/net5.0/Domain.csproj.CoreCompileInputs.cache
 /Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/Domain/obj/Debug/net5.0/Domain.dll
-/Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/Domain/obj/Debug/net5.0/refint/Domain.dll
 /Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/Domain/obj/Debug/net5.0/Domain.pdb
 /Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/Domain/obj/Debug/net5.0/ref/Domain.dll
+/Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/Domain/bin/Debug/net5.0/ref/Domain.dll

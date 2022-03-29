@@ -6,6 +6,9 @@
 
     <ItemGroup>
         <PackageReference Include="FluentValidation.AspNetCore" Version="10.4.0" />
+        <PackageReference Include="JsonModelBinder" Version="2.1.1" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="5.0.5" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="5.0.1" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.5">
           <PrivateAssets>all</PrivateAssets>
           <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

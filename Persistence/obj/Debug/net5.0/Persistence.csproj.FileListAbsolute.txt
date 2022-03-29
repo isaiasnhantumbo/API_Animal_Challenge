@@ -25,6 +25,6 @@ D:/Work/XPNT/Projects/Animal_Challenge/Animal_Challenge/Persistence/obj/Debug/ne
 /Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/Persistence/obj/Debug/net5.0/Persistence.csproj.CoreCompileInputs.cache
 /Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/Persistence/obj/Debug/net5.0/Persistence.csproj.CopyComplete
 /Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/Persistence/obj/Debug/net5.0/Persistence.dll
-/Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/Persistence/obj/Debug/net5.0/refint/Persistence.dll
 /Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/Persistence/obj/Debug/net5.0/Persistence.pdb
 /Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/Persistence/obj/Debug/net5.0/ref/Persistence.dll
+/Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/Persistence/bin/Debug/net5.0/ref/Persistence.dll

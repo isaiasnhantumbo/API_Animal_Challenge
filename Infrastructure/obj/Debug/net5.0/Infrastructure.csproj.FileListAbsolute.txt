@@ -33,6 +33,6 @@ D:/Work/XPNT/Projects/Animal_Challenge/Animal_Challenge/Infrastructure/obj/Debug
 /Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/Infrastructure/obj/Debug/net5.0/Infrastructure.csproj.CoreCompileInputs.cache
 /Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/Infrastructure/obj/Debug/net5.0/Infrastructure.csproj.CopyComplete
 /Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/Infrastructure/obj/Debug/net5.0/Infrastructure.dll
-/Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/Infrastructure/obj/Debug/net5.0/refint/Infrastructure.dll
 /Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/Infrastructure/obj/Debug/net5.0/Infrastructure.pdb
 /Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/Infrastructure/obj/Debug/net5.0/ref/Infrastructure.dll
+/Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/Infrastructure/bin/Debug/net5.0/ref/Infrastructure.dll

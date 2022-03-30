@@ -3,6 +3,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using Application.Dtos;
 using Application.Interfaces;
+using AutoMapper;
 using Domain;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
@@ -21,22 +22,20 @@ namespace Application.Features.Users
         {
             private readonly UserManager<AppUser> _userManager;
             private readonly IUserAccessor _userAccessor;
+            private readonly IMapper _mapper;
 
-            public GetUserHandler(UserManager<AppUser> userManager,IUserAccessor userAccessor)
+            public GetUserHandler(UserManager<AppUser> userManager,IUserAccessor userAccessor, IMapper mapper)
             {
                 _userManager = userManager;
                 _userAccessor = userAccessor;
+                _mapper = mapper;
             }
             public async Task<UserDto> Handle(GetUserQuery request, CancellationToken cancellationToken)
             {
                 var user = await _userManager.Users.Where(x => x.Email == _userAccessor.GetCurrentUserEmail())
                     .FirstOrDefaultAsync();
-                return new UserDto
-                {
-                    FullName = user.FullName,
-                    Email = user.Email,5
-                    PhoneNumber = user.PhoneNumber
-                };
+                return _mapper.Map<AppUser, UserDto>(user);
+
             }
         }
     }

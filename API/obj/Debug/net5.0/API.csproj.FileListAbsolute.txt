@@ -130,3 +130,8 @@ D:/Work/XPNT/Projects/Animal_Challenge/Animal_Challenge/API/bin/Debug/net5.0/Flu
 /Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/API/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll
 /Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/API/obj/Debug/net5.0/staticwebassets/API.StaticWebAssets.xml
 /Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/API/bin/Debug/net5.0/SendGrid.dll
+/Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/API/bin/Debug/net5.0/AutoMapper.dll
+/Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/API/bin/Debug/net5.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/API/bin/Debug/net5.0/Microsoft.Extensions.Options.dll
+/Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/API/bin/Debug/net5.0/Microsoft.Extensions.Primitives.dll
+/Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/API/bin/Debug/net5.0/System.Runtime.CompilerServices.Unsafe.dll

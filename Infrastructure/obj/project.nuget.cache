@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "PW788maK2oB2xaUHY5IQQQAbvDG7PCuh7QbEOwqO7Y++Lt/Vnnq7F63D/A786XimKYFKRgcfcDIz4P5hDQwo+g==",
+  "dgSpecHash": "wwymp0saTjwBlnCzE21lhfg42Q7dJzmGFqjjUIdwDMfjOxPml3h156El3aySOMfeVGulKlsczAup4r+XQ+98dw==",
   "success": true,
   "projectFilePath": "/Users/isaiasnhantumbo/github/jobs/xp/API_Animal_Challenge/Infrastructure/Infrastructure.csproj",
   "expectedPackageFiles": [
+    "/Users/isaiasnhantumbo/.nuget/packages/automapper/11.0.1/automapper.11.0.1.nupkg.sha512",
     "/Users/isaiasnhantumbo/.nuget/packages/fluentvalidation/10.4.0/fluentvalidation.10.4.0.nupkg.sha512",
     "/Users/isaiasnhantumbo/.nuget/packages/fluentvalidation.aspnetcore/10.4.0/fluentvalidation.aspnetcore.10.4.0.nupkg.sha512",
     "/Users/isaiasnhantumbo/.nuget/packages/fluentvalidation.dependencyinjectionextensions/10.4.0/fluentvalidation.dependencyinjectionextensions.10.4.0.nupkg.sha512",
@@ -15,7 +16,7 @@
     "/Users/isaiasnhantumbo/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/5.0.5/microsoft.aspnetcore.cryptography.keyderivation.5.0.5.nupkg.sha512",
     "/Users/isaiasnhantumbo/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/5.0.5/microsoft.aspnetcore.identity.entityframeworkcore.5.0.5.nupkg.sha512",
     "/Users/isaiasnhantumbo/.nuget/packages/microsoft.aspnetcore.identity.ui/5.0.1/microsoft.aspnetcore.identity.ui.5.0.1.nupkg.sha512",
-    "/Users/isaiasnhantumbo/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
+    "/Users/isaiasnhantumbo/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/isaiasnhantumbo/.nuget/packages/microsoft.entityframeworkcore/5.0.5/microsoft.entityframeworkcore.5.0.5.nupkg.sha512",
     "/Users/isaiasnhantumbo/.nuget/packages/microsoft.entityframeworkcore.abstractions/5.0.5/microsoft.entityframeworkcore.abstractions.5.0.5.nupkg.sha512",
     "/Users/isaiasnhantumbo/.nuget/packages/microsoft.entityframeworkcore.analyzers/5.0.5/microsoft.entityframeworkcore.analyzers.5.0.5.nupkg.sha512",

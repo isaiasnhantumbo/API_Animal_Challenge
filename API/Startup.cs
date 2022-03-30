@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using API.Extensions;
 using Application.Features.AnimalTypes;
+using Application.Helpers;
 using Domain;
 using FluentValidation.AspNetCore;
 using MediatR;
@@ -51,6 +52,7 @@ namespace API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddAutoMapper(typeof(MappingProfiles));
             services.AddControllers()
                 .AddFluentValidation(s =>
                 {

@@ -20,7 +20,7 @@ namespace Infrastructure.Mail
         public async Task SendConfirmationEmail(AppUser user)
         {
             string baseUrl = _httpContextAccessor.HttpContext.Request.Host.Value;
-            var apiKey = "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";
+            var apiKey = "";
             var client = new SendGridClient(apiKey);
             var from = new EmailAddress("majorkey548@gmail.com", "Admin");
             var subject = "Confirmação de email";
